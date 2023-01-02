@@ -15,3 +15,19 @@ src/test/resources/test4.xml            eol=lf
 src/test/resources/test?with?spaces.txt eol=lf
 src/test/resources/test.txt             eol=lf
 src/test/resources/COMPRESS-380-input   binary
+src filter=lfs diff=lfs merge=lfs -text
+pmd-ruleset.xml filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+LICENSE.txt filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+mvnw.cmd filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+RELEASE-NOTES.txt filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+findbugs-exclude-filter.xml filter=lfs diff=lfs merge=lfs -text
+NOTICE.txt filter=lfs diff=lfs merge=lfs -text
+pom.xml filter=lfs diff=lfs merge=lfs -text
+README.txt filter=lfs diff=lfs merge=lfs -text
+BUILDING.md filter=lfs diff=lfs merge=lfs -text
+mvnw filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTING.md filter=lfs diff=lfs merge=lfs -text
